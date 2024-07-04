@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- <style>
+            /* Set the height of the navigation bar */
+            .navbar {
+            height: 80px;
+            }
+
+            /* Set the color of the navigation links */
+            .navbar-nav .nav-link {
+            color: white;
+            }
+
+            /* Set the background color of the dropdown menu */
+            .dropdown-menu {
+            background-color: #343a40;
+            }
+
+            /* Set the color of the dropdown menu items */
+            .dropdown-item {
+            color: white;
+            }
+
+            /* Set the background color of the dropdown menu items when hovered over */
+            .dropdown-item:hover {
+            background-color: #007bff;
+            color: white;
+            }
+        </style> -->
+        <title>POT IT</title>
+        <link rel="stylesheet" href="body.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">POT IT</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        COLLECTIONS
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="creepers.html">CREEPERS AND CLIMBERS</a>
+                        <a class="dropdown-item" href="aquatics.html">AQUATICS PLANTS</a>
+                        <a class="dropdown-item" href="indoor.html">INDOOR PLANTS</a>
+                        <a class="dropdown-item" href="fruit.html">FRUIT PLANTS</a>
+                        <a class="dropdown-item" href="outdoor.html">OUTDOOR PLANTS</a>
+                        <a class="dropdown-item" href="medicine.html">MEDICINE PLANTS</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html">CART</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li> 
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                    ACCOUNT
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="login.html">LOGIN</a>
+                    <a class="dropdown-item" href="registration.html">REGISTER</a>
+                </div> 
+                </li>   
+              </ul>
+            </div>  
+          </nav>
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+       
+    </body>
+    <style>
+        body {
+           background-image: url("bgimg2.jpg");
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: 100% 100%;
+
+        }
+     </style>
+</html>

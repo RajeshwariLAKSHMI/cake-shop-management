@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+  <title>Collapsive Menu Bar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <style>
+  
+
+body
+{ 
+    background-image: url(th\ \(6\).jpg);
+     height: 900px;
+    background-size: cover;
+    font-family:  sans-serif;
+    background-repeat: no-repeat;
+}
+
+ </style>
+ 
+  </head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+      	  <a class="navbar-brand" href="#">CAKE SHOP</a>
+    </div>
+    
+	<div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="nav2.html"><i class="fa fa-home" aria-hidden="true"></i>HOME</a></li>
+        <li class="dropdown">
+          <a  href="form events.html"><i ></i>ACCOUNT</a>
+      </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i ></i>PRODUCTS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <div class="sub-menu-1">
+            <li><a href="cake.html">CAKE</a></li>
+            
+          </ul>
+        </li>
+        
+        <li><a href="About us.html"><i class="fa fa-user" aria-hidden="true"></i>ABOUT US</a></li>
+        <li class="dropdown">
+          
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-product-hunt" aria-hidden="true"></i>OFFER<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <html>
+                <head>
+                  <title>Cake Shop</title>
+                  <style>
+                    .offer {
+                      background-color: rgb(225, 225, 212);
+                      padding: 10px;
+                      margin-bottom: 10px;
+                    }
+                  </style>
+                </head>
+                <body>
+                  <h1></h1>
+                
+                  <div class="offer">
+                    <h2>Special Offer</h2>
+                    <p>Get 10% off on all cakes this weekend!</p>
+                  </div>
+                
+                  <div class="offer">
+                    <h2>Seasonal Discount</h2>
+                    <p>Enjoy 15% off on all holiday-themed cakes.</p>
+                  </div>
+                
+                  <!-- Additional offers can be added here -->
+                
+                </body>
+                </html>
+            </ul>
+        </li>
+        
+              <li class="dropdown">
+                <a  href="grid.html"><i class="fa fa-sort-amount-asc" aria-hidden="true"></i>PRICES</a>
+            </li>
+            
+          </li>
+        
+    
+        
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>LOCATION<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <div class="sub-menu-1">
+                <ul>
+                  
+                    <li><a href="#">Chennai</a>
+                    <li><a href="#">Erode</a>
+                    <li><a href="#">Salem</a> 
+                </ul>
+                </li>
+              
+        </li>
+        
+        
+      </ul>
+      <li class="dropdown">
+        <a  href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>CONTACT</a>
+    </li>
+      
+    </div>
+  </div>
+</nav>
+  
+  
+<div class="container">
+  <h1 class="text-center" id="move" style="font-size: 4vw; color: rgb(5, 12, 12)"
+   onMousemove="move()">CAKE SHOP</h1>
+
+</div>
+
+	<script >
+    function start()
+  {
+  document.getElementById("move").addEventListener("mousemove", moveone, false );
+  document.getElementById("move").addEventListener("mouseout", leaveone, false );
+  }
+  
+  function moveone()
+  {
+  document.getElementById("move").innerHTML ="CAKE SHOP";
+  }
+
+  function leaveone()
+  {
+  document.getElementById("move").innerHTML ="Delicious Cake for Everyone";
+  }
+    window.addEventListener( "load", start,false);
+	
+	</script>
+	 
+
+</body>
+</html>

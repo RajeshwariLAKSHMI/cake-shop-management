@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cake Shop Map - Erode</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-4 mb-4">Cake Shop - Erode</h1>
+    <div id="map"></div>
+  </div>
+
+  <script>
+    function initMap() {
+      // Create a map object and specify the coordinates
+      var erodeLocation = {lat: 11.3410, lng: 77.7172};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 12,
+        center: erodeLocation
+      });
+
+      // Add a marker for the cake shop in Erode
+      var marker = new google.maps.Marker({
+        position: erodeLocation,
+        map: map,
+        title: 'Cake Shop - Erode'
+      });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
